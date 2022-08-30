@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study_Plan_DataStructure_LeetCode", "Study_Plan_DataStructure_LeetCode\Study_Plan_DataStructure_LeetCode.csproj", "{17F043AB-79F1-449A-97F3-D7391EBC7510}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study_Plan_DataStructure_LeetCode", "Study_Plan_DataStructure_LeetCode\Study_Plan_DataStructure_LeetCode.csproj", "{17F043AB-79F1-449A-97F3-D7391EBC7510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contains Duplicate", "Contains Duplicate\Contains Duplicate.csproj", "{EA0D8B3D-FA8F-4C66-9B04-CAB85C4A4CC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{17F043AB-79F1-449A-97F3-D7391EBC7510}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17F043AB-79F1-449A-97F3-D7391EBC7510}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17F043AB-79F1-449A-97F3-D7391EBC7510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA0D8B3D-FA8F-4C66-9B04-CAB85C4A4CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0D8B3D-FA8F-4C66-9B04-CAB85C4A4CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0D8B3D-FA8F-4C66-9B04-CAB85C4A4CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0D8B3D-FA8F-4C66-9B04-CAB85C4A4CC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
