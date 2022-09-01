@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contains Duplicate", "Conta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximum Subarray", "Maximum Subarray\Maximum Subarray.csproj", "{73BDF5ED-4A74-46DF-92E3-45BA7FAFA474}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two Sum", "Two Sum\Two Sum.csproj", "{B4AD9AB0-AB15-40BD-BA17-84916160FAFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two Sum", "Two Sum\Two Sum.csproj", "{B4AD9AB0-AB15-40BD-BA17-84916160FAFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge Sorted Array", "Merge Sorted Array\Merge Sorted Array.csproj", "{E21CC6C4-312D-49AD-A4F0-A94087EBCB14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B4AD9AB0-AB15-40BD-BA17-84916160FAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4AD9AB0-AB15-40BD-BA17-84916160FAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4AD9AB0-AB15-40BD-BA17-84916160FAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E21CC6C4-312D-49AD-A4F0-A94087EBCB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E21CC6C4-312D-49AD-A4F0-A94087EBCB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E21CC6C4-312D-49AD-A4F0-A94087EBCB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E21CC6C4-312D-49AD-A4F0-A94087EBCB14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
