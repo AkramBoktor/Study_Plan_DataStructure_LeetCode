@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First Unique Character in a
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ransom Note", "Ransom Note\Ransom Note.csproj", "{8F0DB44C-A42A-47CA-894A-84D454F49D2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectSizeRice_Amazon", "PerfectSizeRice_Amazon\PerfectSizeRice_Amazon.csproj", "{693D71B4-76DD-44B7-8BF1-53E72E9646AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "getMaxFreqDeviation", "PerfectSizeRice_Amazon\getMaxFreqDeviation.csproj", "{693D71B4-76DD-44B7-8BF1-53E72E9646AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

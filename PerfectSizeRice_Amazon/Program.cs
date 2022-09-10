@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace PerfectSizeRice_Amazon
+namespace getMaxFreqDeviation
 {
     internal class Program
     {
@@ -12,27 +12,47 @@ namespace PerfectSizeRice_Amazon
         }
         public static int getMaxFreqDeviation(string s)
         {
-            if (s.Length == 0)
+            #region solve 1
+            //    if (s.Length == 1)
+            //    {
+            //        return 1;
+            //    }
+            //    List<int> maxMinValue = new List<int>();
+            //    for (int i = 0; i < s.Length; i++)
+            //    {
+            //        int freq = 1;
+            //        for (int j = 0; j < s.Length; j++)
+            //        {
+            //            if (s[i] == s[j] && i != j)
+            //            {
+            //                freq += 1;
+            //            }
+            //        }
+            //        maxMinValue.Add(freq);
+            //    }
+
+            //    return maxMinValue.Max() - maxMinValue.Min();
+            //}
+            #endregion
+
+            #region Solve 2
+            IDictionary<char, int> maxDictionaries = new Dictionary<char, int>();
+            foreach (var ch in s)
             {
-                return 0;
-            }
-            List<int> maxMinValue = new List<int>();
-            for (int i = 0; i < s.Length; i++)
-            {
-                int freq = 1;
-                for (int j = 0; j < s.Length; j++)
+                if (maxDictionaries.ContainsKey(ch))
                 {
-                    if (s[i] == s[j] && i != j)
-                    {
-                        freq += 1;
-                    }
+                    maxDictionaries[ch]++;
                 }
-                maxMinValue.Add(freq);
+                else
+                {
+                    maxDictionaries.Add(ch, 1);
+                }
             }
 
-            return maxMinValue.Max() - maxMinValue.Min();
+            return maxDictionaries.Max(x => x.Value) - maxDictionaries.Min(x => x.Value);
+
+            #endregion
         }
 
     }
-
 }
