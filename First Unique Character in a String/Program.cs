@@ -25,7 +25,11 @@ s consists of only lowercase English letters.
 */
 
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
+
 namespace First_Unique_Character_in_a_String
 {
     internal class Program
@@ -40,29 +44,51 @@ namespace First_Unique_Character_in_a_String
 
         public static int FirstUniqChar(string s)
         {
-            int flag = 0;
-            // TODO not working with unique index 0
-            for (int i = 0; i < s.Length; i++)
-            {
-                 flag = 0;
-                for (int j = 0; j < s.Length; j++)
-                {
-                    if(s[i] == s[j] && i != j)
-                    {
-                        flag = 1;
-                        break;
-                    }
-                    
-                }
+            //int flag = 0;
+            //// TODO not working with unique index 0
+            //for (int i = 0; i < s.Length; i++)
+            //{
+            //     flag = 0;
+            //    for (int j = 0; j < s.Length; j++)
+            //    {
+            //        if(s[i] == s[j] && i != j)
+            //        {
+            //            flag = 1;
+            //            break;
+            //        }
 
-                if(flag == 0)
+            //    }
+
+            //    if(flag == 0)
+            //    {
+            //        return i;
+            //    }
+            //}
+
+            //return -1;
+
+
+            ///////////////// solution 2
+            IDictionary<string, int> maxDictionaries = new Dictionary<string, int>();
+
+            foreach (var ch in s)
+            {
+                if (maxDictionaries.ContainsKey(ch.ToString()))
                 {
-                    return i;
+                    maxDictionaries[ch.ToString()]++;
+                }
+                else
+                {
+                    maxDictionaries.Add(ch.ToString(), 1);
                 }
             }
+            var UniqueValues = maxDictionaries.Select(m => m).Where(k => k.Value.Equals(1)).ToList().FirstOrDefault();
+            var UniqueValuesLinQ = (from ch in maxDictionaries
+                                    where ch.Value == 1
+                                    select ch).ToList().FirstOrDefault();
+                                   
+            return UniqueValues.Value == 0 ? -1 : s.IndexOf(UniqueValues.Key);
 
-            return -1;
-      
         }
     }
 }
