@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reshape the Matrix", "Resha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First Unique Character in a String", "First Unique Character in a String\First Unique Character in a String.csproj", "{B8D96D38-BB84-446C-8918-CAA62366F43D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ransom Note", "Ransom Note\Ransom Note.csproj", "{8F0DB44C-A42A-47CA-894A-84D454F49D2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ransom Note", "Ransom Note\Ransom Note.csproj", "{8F0DB44C-A42A-47CA-894A-84D454F49D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectSizeRice_Amazon", "PerfectSizeRice_Amazon\PerfectSizeRice_Amazon.csproj", "{693D71B4-76DD-44B7-8BF1-53E72E9646AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{8F0DB44C-A42A-47CA-894A-84D454F49D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F0DB44C-A42A-47CA-894A-84D454F49D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F0DB44C-A42A-47CA-894A-84D454F49D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693D71B4-76DD-44B7-8BF1-53E72E9646AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693D71B4-76DD-44B7-8BF1-53E72E9646AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693D71B4-76DD-44B7-8BF1-53E72E9646AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693D71B4-76DD-44B7-8BF1-53E72E9646AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
