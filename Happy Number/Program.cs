@@ -63,6 +63,26 @@ namespace Happy_Number
             }
            
             return false;
+
+
+            /***************** Solution 2 ***************/
+           /* if (n < 0) return false;
+            HashSet<int> seen = new HashSet<int>();
+            while (n > 0)
+            {
+                if (seen.Contains(n)) return false;
+                seen.Add(n);
+                int number = 0;
+                for (int i = 0; i < n.ToString().Length; i++)
+                {
+                    number += (int)Math.Pow(int.Parse(n.ToString()[i].ToString()), 2);
+
+                }
+                n = number;
+                if (n == 1) return true;
+            }
+
+            return false;*/
         }
     }
 }
