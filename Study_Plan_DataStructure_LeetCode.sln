@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First Unique Character in a
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ransom Note", "Ransom Note\Ransom Note.csproj", "{8F0DB44C-A42A-47CA-894A-84D454F49D2F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "getMaxFreqDeviation", "PerfectSizeRice_Amazon\getMaxFreqDeviation.csproj", "{693D71B4-76DD-44B7-8BF1-53E72E9646AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "getMaxFreqDeviation_Amazon", "PerfectSizeRice_Amazon\getMaxFreqDeviation_Amazon.csproj", "{693D71B4-76DD-44B7-8BF1-53E72E9646AC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valid Anagram", "Valid Anagram\Valid Anagram.csproj", "{3FC6C48D-B341-4D72-AD7A-9C5301DAAC23}"
 EndProject
@@ -41,7 +41,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddStrings", "AddStrings\AddStrings.csproj", "{F3F6C393-40EB-4363-B4FD-502B7AED824D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implement Queue using Stacks", "Implement Queue using Stacks\Implement Queue using Stacks.csproj", "{3CA1AB6E-29CD-4331-B513-B42A393214FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Implement Queue using Stacks", "Implement Queue using Stacks\Implement Queue using Stacks.csproj", "{3CA1AB6E-29CD-4331-B513-B42A393214FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
